@@ -1,0 +1,37 @@
+.header-logo{
+    margin: 0px 0px 0px 10px;
+    font-size: 0;
+    position: relative;
+    z-index: 1;
+}
+.nav{
+    box-shadow: none;
+    color: black;
+}
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.vector-line{
+    position: absolute;
+    top: 18px;
+    left: 10px;
+    z-index: 0;
+}
+.validate-link{
+    margin-right: 32px;
+    color: black;
+}
+.btn-docs{
+    margin-right: 18px;
+    width: 103px;
+    height: 51px;
+    padding: 16px 32px;
+    background: #F0B80D;
+    border: 1px solid #FFD24B;
+    box-shadow: 0px 10px 34px #EAC555;
+    border-radius: 40px;
+}

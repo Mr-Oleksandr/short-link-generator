@@ -1,0 +1,35 @@
+.title{
+    text-align: center;
+    font-size: 32px;
+    line-height: 39px;
+}
+.title-short{
+    color: #5380EA;
+}
+.input-link{
+    padding-left: 16px!important;
+    height: 51px!important;
+    background: #F9FAFF!important;
+    border: 1px solid #DEE6FF!important;
+    border-radius: 5px!important;
+    color: #AAAAAA;
+}
+.input-link:focus{
+    box-shadow: none!important;
+}
+.btn-short{
+    background: #5380EA;
+    border: 1px solid #5380EA;
+    box-shadow: 0px 10px 34px rgba(83, 128, 234, 0.5);
+    border-radius: 40px;
+    width: 200px;
+    height: 51px;
+    color: #FFFFFF;
+    margin-top: 36px;
+    margin-bottom: 38px;
+}
+.form-short-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

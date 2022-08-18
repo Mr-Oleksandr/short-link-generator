@@ -1,0 +1,14 @@
+.btn-copy{
+    background: #F6FBF8;
+    box-shadow: 0px 24px 24px rgba(0, 0, 0, 0.08);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    width: 420px;
+    height: 95px;
+    padding: 24px;
+    color: black;
+    border: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
