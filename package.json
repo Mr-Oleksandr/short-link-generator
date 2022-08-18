@@ -1,0 +1,36 @@
+{
+  "name": "generate-short-link",
+  "version": "1.0.0",
+  "description": "Generate short link , use MongoDB, Express JS, React JS, Node JS",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client:install": "npm install --prefix client",
+    "client:build": "npm run build --prefix client",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [
+    "generate",
+    "short",
+    "link"
+  ],
+  "author": "Oleksandr Kovalyov <skovalov777@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.7",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.2",
+    "react-markdown": "^8.0.3",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "concurrently": "^7.3.0",
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.19"
+  }
+}

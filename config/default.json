@@ -1,0 +1,6 @@
+{
+  "port": 4000,
+  "jwtSecret":"asd company",
+  "mongoUri": "mongodb+srv://shortLink:Sashalove111@cluster1.o6tiaue.mongodb.net/?retryWrites=true&w=majority",
+  "baseUrl": "http://localhost:4000"
+}
